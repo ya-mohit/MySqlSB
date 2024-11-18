@@ -20,4 +20,6 @@ public class UserController {
 	UserEntity addUser(@RequestBody UserEntity user) {
 		return userService.addUser(user);
 	}
+	
+	
 }
